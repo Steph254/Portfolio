@@ -1,3 +1,6 @@
+body{
+  background-color: pink;
+}
 .home {
   font-family:serif;
   font-style: oblique;
@@ -47,10 +50,7 @@
   position:sticky;
 }
  #navbar a:hover{
-  background-color: blue;
-  opacity: 300px
-}
-.nav{
-  position: relative;
-  top:0px;
+  background-color: pink;
+  opacity: 100%;
+  padding: 50px 40px 40px 50px;
 }
