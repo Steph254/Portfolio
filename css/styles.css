@@ -1,7 +1,14 @@
 .home {
-  font-family: sans-serif;
-  background-image: url(image/leaf.jpg);
+  font-family:serif;
+  font-style: oblique;
+  color:blue;
+  font-size: 35px;
+  background-image: url(../image/candle-light.jpg);
+  background-size: cover;
+  padding: 200px 300px 300px 200px;
+  border-radius: 50px;
 }
+
 .aboutme{
 
 }
@@ -9,5 +16,5 @@
 
 }
 .info{
-  
+
 }
