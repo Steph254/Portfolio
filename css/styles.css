@@ -3,18 +3,54 @@
   font-style: oblique;
   color:blue;
   font-size: 35px;
-  background-image: url(../image/candle-light.jpg);
+  background-image: url(../image/sooth.jpg);
   background-size: cover;
   padding: 200px 300px 300px 200px;
   border-radius: 50px;
 }
 
 .aboutme{
-
+  font-weight: bold;
 }
 .projects{
-
+  font-weight: bold;
+  font-style:oblique;
+  font-family: serif;
+  font-size: 20px;
 }
 .info{
-
+  font-kerning: 40px;
+  display:grid;
+}
+.content{
+  font-style: oblique;
+  padding:10px 100px 10px 100px;
+  font-size: 20px;
+}
+#img {
+  display:flex;
+}
+#link{
+  display:flex;
+}
+.page{
+  padding:30px 40px 10px 30px;
+  border-radius: 500px;
+}
+ #navbar ul li{
+  margin:0px;
+  padding:10px;
+  float:left;
+  list-style: none;
+  display: block;
+  color:black;
+  position:sticky;
+}
+ #navbar a:hover{
+  background-color: blue;
+  opacity: 300px
+}
+.nav{
+  position: relative;
+  top:0px;
 }
