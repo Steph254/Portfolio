@@ -1,7 +1,8 @@
 body{
   background-color: pink;
+  overflow: hidden;
 }
-.home {
+#home {
   font-family:serif;
   font-style: oblique;
   color:blue;
@@ -12,16 +13,16 @@ body{
   border-radius: 50px;
 }
 
-.aboutme{
+#aboutme{
   font-weight: bold;
 }
-.projects{
+#projects{
   font-weight: bold;
   font-style:oblique;
   font-family: serif;
   font-size: 20px;
 }
-.info{
+#info{
   font-kerning: 40px;
   display:grid;
 }
@@ -40,17 +41,24 @@ body{
   padding:30px 40px 10px 30px;
   border-radius: 500px;
 }
- #navbar ul li{
+.navbar{
+  position: fixed;
+  background-image: url(../image/sooth.jpg);
+}
+ .navbar ul li{
   margin:0px;
   padding:10px;
   float:left;
   list-style: none;
   display: block;
   color:black;
-  position:sticky;
 }
- #navbar a:hover{
+ .navbar a:hover{
   background-color: pink;
   opacity: 100%;
   padding: 50px 40px 40px 50px;
+}
+.contain{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
