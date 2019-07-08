@@ -1,8 +1,8 @@
- #Name of application
+ # Name of application
  Portfolio
- #Author:
+ # Author:
  Stephania Mwikali
-#Description
+# Description
 This is a webpage that contains information about me and my educational background.
 # Setup/Installation Requirements
 On the landing page the menu can be used to navigate on the page.
