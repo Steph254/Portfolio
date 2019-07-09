@@ -11,4 +11,7 @@ The images on the links have been embedded as links.To go to the linked pages ju
 # The languages  used when creating this application were:
 HTML
 CSS
+## License
+MIT License
 
+Copyright (c) 2019 Stephania-hp
